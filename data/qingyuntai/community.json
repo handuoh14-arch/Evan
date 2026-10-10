@@ -1,0 +1,194 @@
+{
+  "name": "金地·卿云台",
+  "aliases": ["卿云台", "金地卿云台", "太原卿云台小区"],
+  "city": "太原",
+  "district": "小店区",
+  "plate": ["坞城", "晋阳街", "南中环晋阳街"],
+  "address": "山西省太原市小店区晋阳街与体育路交汇处往南约500米",
+  "sales_office_address": "晋阳街与体育路交汇处往南约500–600米路东",
+  "collected_at": "2026-10-10",
+  "disclaimer": "数据来自公开房产信息平台聚合，各平台字段存在差异；实际以开发商公示及政府部门登记备案为准。",
+  "basic": {
+    "property_types": ["住宅", "公寓", "商铺"],
+    "building_type": ["高层", "板楼", "大平层"],
+    "decoration": "带装修 / 非毛坯（平台表述不一）",
+    "land_use_years": {
+      "residential": 70,
+      "apartment": 40,
+      "commercial": 40
+    },
+    "developer": "太原市悦晟房地产开发有限公司",
+    "property_management": {
+      "company_variants": [
+        "北京金地格林物业管理有限公司太原分公司",
+        "太原市金地物业管理有限公司",
+        "金地物业"
+      ],
+      "fee_cny_per_sqm_month": {
+        "reported": [2.98, 3.05],
+        "note": "购房网等多为 2.98；乐居有 3.05 口径"
+      }
+    },
+    "presale_permit": "（2022）并商房预售字第0235号"
+  },
+  "planning": {
+    "site_area_sqm": 63046.67,
+    "gross_floor_area_sqm": {
+      "focus_longfang": 230204.31,
+      "goufang_58": 336756.46,
+      "note": "建筑面积各平台不一致，可能含地下或不同统计口径"
+    },
+    "plot_ratio": {
+      "focus_longfang_leju": 3.67,
+      "fang_goufang_58": 3.76
+    },
+    "greening_rate_percent": {
+      "focus_longfang": 36,
+      "fang_goufang_leju": 35
+    },
+    "buildings": {
+      "focus_longfang": 14,
+      "leju_article": 16,
+      "goufang": 23,
+      "note": "楼栋数平台口径不一致"
+    },
+    "households": {
+      "new_home_platforms": 1373,
+      "ershou_58": 1521,
+      "note": "新房页多为 1373；58 二手小区页为 1521"
+    },
+    "parking": {
+      "spaces_focus": 2555,
+      "ratio_focus": "1:1.86",
+      "ratio_goufang": "1:1.5"
+    },
+    "people_vehicle_separation": true
+  },
+  "sales": {
+    "status_by_source": {
+      "fang_com": "售完（参考价仍展示）",
+      "goufang": "售完",
+      "focus": "在售",
+      "leju": "在售 / 售价待定"
+    },
+    "reference_unit_price_cny_per_sqm": {
+      "new_home": {
+        "fang_com_goufang": 18500,
+        "focus": 17000,
+        "leju_approx": 17000,
+        "quote_date_fang": "2026-06-17"
+      },
+      "total_price_range_wan": {
+        "min": 228,
+        "max": 403,
+        "source": "房天下"
+      },
+      "second_hand_58": {
+        "reference": 17767,
+        "latest_month": "2026-10",
+        "latest_avg": 17944.67,
+        "mom_change_percent": -0.08,
+        "yoy_change_percent": 5.2
+      }
+    },
+    "timeline": {
+      "opening": "2024-07-06（10#楼已开盘）",
+      "delivery_estimates": [
+        "2024-12-25（部分平台早期交房口径）",
+        "2025-12-31（10#楼预计交房，房天下/购房网）"
+      ],
+      "completion_year_58": "2024-09 / 2024-12-25（平台字段不一）"
+    }
+  },
+  "unit_types": {
+    "main_range_sqm": [123, 218],
+    "layouts": [
+      { "name": "A1", "rooms": "3室2厅1厨2卫", "area_sqm": 123, "status": "在售/余房待核" },
+      { "name": "A2", "rooms": "3室2厅", "area_sqm": 128, "alt_area_sqm": 131, "status": "在售/余房待核", "note": "房天下 128㎡；购房网 A2 标注 131㎡" },
+      { "name": "B2", "rooms": "3室2厅", "area_sqm": 135, "status": "余房待核", "source": "购房网" },
+      { "name": "B1", "rooms": "3室2厅", "area_sqm": 142, "alt_area_sqm": 153, "status": "余房待核", "note": "购房网 B1=142㎡；对比页常见 153㎡ 三居" },
+      { "name": "D1", "rooms": "4室2厅1厨3卫", "area_sqm": 182, "status": "在售/余房待核" },
+      { "name": "185㎡四居", "rooms": "4室2厅1厨2卫", "area_sqm": 185, "status": "在售/余房待核" },
+      { "name": "四居大户型", "rooms": "4居", "area_sqm": 218, "status": "在售/余房待核" }
+    ],
+    "summary_from_fang_compare": {
+      "3br": [123, 153],
+      "4br": [182, 218]
+    }
+  },
+  "price_history_second_hand_58": [
+    { "month": "2025-01", "avg_cny_per_sqm": 16569.05, "mom_change_percent": 1.76 },
+    { "month": "2025-02", "avg_cny_per_sqm": 16583.19, "mom_change_percent": 0.09 },
+    { "month": "2025-03", "avg_cny_per_sqm": 16834.68, "mom_change_percent": 1.52 },
+    { "month": "2025-04", "avg_cny_per_sqm": 17256.86, "mom_change_percent": 2.51 },
+    { "month": "2025-05", "avg_cny_per_sqm": 17457.85, "mom_change_percent": 1.16 },
+    { "month": "2025-06", "avg_cny_per_sqm": 17443.71, "mom_change_percent": -0.08 },
+    { "month": "2025-07", "avg_cny_per_sqm": 17252.82, "mom_change_percent": -1.09 },
+    { "month": "2025-08", "avg_cny_per_sqm": 17423.51, "mom_change_percent": 0.99 },
+    { "month": "2025-09", "avg_cny_per_sqm": 17266.96, "mom_change_percent": -0.9 },
+    { "month": "2025-10", "avg_cny_per_sqm": 17056.88, "mom_change_percent": -1.22 },
+    { "month": "2025-11", "avg_cny_per_sqm": 16945.78, "mom_change_percent": -0.65 },
+    { "month": "2025-12", "avg_cny_per_sqm": 16987.19, "mom_change_percent": 0.25 },
+    { "month": "2026-01", "avg_cny_per_sqm": 17354.83, "mom_change_percent": 2.17 },
+    { "month": "2026-02", "avg_cny_per_sqm": 17684.09, "mom_change_percent": 1.89 },
+    { "month": "2026-03", "avg_cny_per_sqm": 17582.08, "mom_change_percent": -0.57 },
+    { "month": "2026-04", "avg_cny_per_sqm": 17445.73, "mom_change_percent": -0.78 },
+    { "month": "2026-05", "avg_cny_per_sqm": 17370.99, "mom_change_percent": -0.43 },
+    { "month": "2026-06", "avg_cny_per_sqm": 17360.89, "mom_change_percent": -0.06 },
+    { "month": "2026-07", "avg_cny_per_sqm": 17444.72, "mom_change_percent": 0.48 },
+    { "month": "2026-08", "avg_cny_per_sqm": 17846.7, "mom_change_percent": 2.31 },
+    { "month": "2026-09", "avg_cny_per_sqm": 17958.81, "mom_change_percent": 0.63 },
+    { "month": "2026-10", "avg_cny_per_sqm": 17944.67, "mom_change_percent": -0.08 }
+  ],
+  "amenities": {
+    "transit": [
+      "地铁2号线晋阳街站",
+      "地铁2号线龙兴街站",
+      "地铁3号线（规划/部分平台称双地铁交汇）"
+    ],
+    "roads": ["晋阳街", "体育路", "龙城大街"],
+    "schools": ["九一小学（恒大华府校区）", "太原市第三实验中学"],
+    "commerce": ["北美N1购物中心/文创区", "苏宁广场（在建）", "山西国际金融中心"],
+    "hospitals": ["山西白求恩医院（山西医学科学院）", "山西省儿童医院/妇幼保健院", "山西大医院（部分平台提及）"],
+    "parks": ["龙城公园（在建/周边景观）"],
+    "internal": ["幼儿园（部分平台标注小区配套）"]
+  },
+  "sources": [
+    {
+      "name": "太原房天下",
+      "url": "https://taiyuan.newhouse.fang.com/loupan/1410194985.htm"
+    },
+    {
+      "name": "太原房天下楼盘对比",
+      "url": "https://taiyuan.newhouse.fang.com/duibi/1410201803_1410194985.htm"
+    },
+    {
+      "name": "焦点网",
+      "url": "https://m.focus.cn/ty/loupan/110139212.html"
+    },
+    {
+      "name": "太原购房网",
+      "url": "http://taiyuan.goufang.com/loupan_631.html"
+    },
+    {
+      "name": "乐居",
+      "url": "https://house.leju.com/ty/174067/xinxi/"
+    },
+    {
+      "name": "乐居导购",
+      "url": "https://m.leju.com/ty/news/7224152290582910758.html"
+    },
+    {
+      "name": "58同城爱房（二手房价）",
+      "url": "https://mfang.58.com/ty/xinfang/xq104663958/fangjia/"
+    },
+    {
+      "name": "58同城爱房（新房）",
+      "url": "https://mfang.58.com/ty/xinfang/xq104064314/"
+    },
+    {
+      "name": "龙房网",
+      "url": "http://ty.longfang.com/house/2/xinxi.html"
+    }
+  ]
+}
